@@ -1,9 +1,10 @@
-import Home from "./home";
+import DefaultContainer from "./Components/defaultContainer";
 import GlobalStyle from "./globalStyle";
+
 function App() {
   return (
     <div className="App">
-      <Home />
+      <DefaultContainer />
       <GlobalStyle />
     </div>
   );
