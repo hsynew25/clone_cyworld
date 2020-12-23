@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import todayIsImg from "../img/todayIs.png";
+import todayIsImg from "../../img/todayIs.png";
 
 const Container = styled.div`
   border: 1px solid #bfbfbf;

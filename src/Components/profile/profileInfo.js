@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import "../font.css";
+import "../../font.css";
 
 const Container = styled.div`
   margin-top: 10px;
@@ -15,7 +15,7 @@ const UserInfo = styled.div`
 `;
 
 const Name = styled.span`
-  color: #627a96;
+  color: #4871a2;
   font-weight: bold;
   font-size: 20px;
   vertical-align: middle;

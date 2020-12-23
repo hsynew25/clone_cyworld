@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import "../font.css";
-import btnImg from "../img/EditAndHis.png";
+import "../../font.css";
+import btnImg from "../../img/EditAndHis.png";
 
 const Container = styled.div`
   min-height: 330px;

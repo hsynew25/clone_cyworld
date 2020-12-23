@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Profile from "./profile";
+import Profile from "./profile/profile";
 
 const Container = styled.div`
   background-color: #fff;
