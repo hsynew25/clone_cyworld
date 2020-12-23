@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import MiniRoom from "./miniRoom";
 import UpdatedContainer from "./updatedContainer/updatedContainer";
+import WhatFriendSay from "./whatFriendSay";
 
 const Container = styled.div`
   width: 600px;
@@ -20,6 +21,7 @@ function CenterSideBox() {
     <Container>
       <UpdatedContainer />
       <MiniRoom />
+      <WhatFriendSay />
     </Container>
   );
 }

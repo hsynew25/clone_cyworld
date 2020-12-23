@@ -14,6 +14,7 @@ const Header = styled.div`
 const MyMiniroom = styled.div`
   background-image: url(${miniroomImg});
   height: 234px;
+  min-height: 230px;
   border: 1px solid #bfbfbf;
 `;
 
