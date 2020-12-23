@@ -4,7 +4,7 @@ import ContentsBox from "./contentsBox";
 import LeftSideBox from "./leftSideBox";
 import CenterSideBox from "./centerSideBox";
 import TabButton from "./tabButton";
-import RightSideBox from "./rightSideBox";
+import RightSideBox from "./rightSideBox/rightSideBox";
 
 const Container = styled.div`
   background-color: #b3b3b3;
