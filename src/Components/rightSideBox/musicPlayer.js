@@ -23,11 +23,8 @@ const example = keyframes`
 0% {
   left: 240px;
 }
-50% {
-left: 60px;
-}
 100% {
-left: -120px;
+  left: -120px;
 }
 `;
 
@@ -42,10 +39,6 @@ const Music = styled.div`
   animation-iteration-count: infinite;
 `;
 
-const Player = styled.div`
-  padding: 0 5px;
-`;
-
 function MusicPlayer() {
   return (
     <Container>
@@ -55,7 +48,16 @@ function MusicPlayer() {
           <Music>프리스타일-Y</Music>
         </PlayWrap>
       </NowPlaying>
-      <Player></Player>
+      <iframe
+        width="100%"
+        height="100"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        src={
+          "https://w.soundcloud.com/player/?url=https://soundcloud.com/alexthelee/freestyle-y-please-tell-me-why&show_user=false"
+        }
+      ></iframe>
     </Container>
   );
 }
