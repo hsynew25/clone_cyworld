@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import m1 from "../../minime/1.png";
-import m2 from "../../minime/2.png";
-import m3 from "../../minime/3.png";
-import m4 from "../../minime/4.png";
-import m5 from "../../minime/5.png";
+import m1 from "../../img/minime/1.png";
+import m2 from "../../img/minime/2.png";
+import m3 from "../../img/minime/3.png";
+import m4 from "../../img/minime/4.png";
+import m5 from "../../img/minime/5.png";
 
 const SelectMinime = styled.div`
   width: 280px;
@@ -14,6 +14,7 @@ const SelectMinime = styled.div`
   flex-wrap: wrap;
   position: absolute;
   bottom: -235px;
+  z-index: 100;
 `;
 
 const ItemMinime = styled.button`

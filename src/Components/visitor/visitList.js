@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import VisitItem from "./visitItem";
-import m1 from "../../minime/1.png";
-import m2 from "../../minime/2.png";
-import m3 from "../../minime/3.png";
+import m1 from "../../img/minime/1.png";
+import m2 from "../../img/minime/2.png";
+import m3 from "../../img/minime/3.png";
 
 const Container = styled.div``;
 

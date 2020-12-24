@@ -9,7 +9,7 @@ https://hsynew25.github.io/clone_cyworld/
 3. [ ] React로 정적인 버전 만들기
 
 - [x] 홈
-- [ ] 프로필
+- [x] 방명록
 - [ ] 사진첩
 
 4. [ ] 최소한의 state 찾기

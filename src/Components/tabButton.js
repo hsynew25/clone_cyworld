@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 const Button = styled.button`
   width: 76px;
   height: 44px;
   font-size: 16px;
-  background-color: #248db4; //click되면 #fff로 변경
+  background-color: ${(props) => (props.current ? "#fff" : "#248db4")};
   border: 2px solid #1a6886;
   border-left: none;
   border-radius: 0 10px 10px 0;
-  color: #fff;
+  color: ${(props) => (props.current ? "#000" : "#fff")};
   position: relative;
 `;
 
@@ -23,12 +23,15 @@ const SLink = styled(Link)`
 `;
 
 function TabButton(props) {
+  const {
+    location: { pathname },
+  } = props;
   return (
-    <Button>
+    <Button current={pathname === props.to}>
       {props.children}
       <SLink to={props.to} />
     </Button>
   );
 }
 
-export default TabButton;
+export default withRouter(TabButton);

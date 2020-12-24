@@ -68,6 +68,9 @@ const TabWrap = styled.div`
 `;
 
 function ContentsBox(props) {
+  const {
+    location: { pathname },
+  } = props;
   return (
     <ContainerOuter>
       <InnerBorder />

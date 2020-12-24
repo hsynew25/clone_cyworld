@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import m6 from "../../minime/6.png";
+import m6 from "../../img/minime/6.png";
 import DropdownMinime from "./dropdownMinime";
 
 const Container = styled.div`
