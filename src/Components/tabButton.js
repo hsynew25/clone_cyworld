@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-const Container = styled.button`
+const Button = styled.button`
   width: 76px;
   height: 44px;
   font-size: 16px;
@@ -10,10 +11,24 @@ const Container = styled.button`
   border-left: none;
   border-radius: 0 10px 10px 0;
   color: #fff;
+  position: relative;
+`;
+
+const SLink = styled(Link)`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 `;
 
 function TabButton(props) {
-  return <Container>{props.children}</Container>;
+  return (
+    <Button>
+      {props.children}
+      <SLink to={props.to} />
+    </Button>
+  );
 }
 
 export default TabButton;

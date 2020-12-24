@@ -16,14 +16,8 @@ const Container = styled.div`
   overflow: scroll;
 `;
 
-function CenterSideBox() {
-  return (
-    <Container>
-      <UpdatedContainer />
-      <MiniRoom />
-      <WhatFriendSay />
-    </Container>
-  );
+function CenterSideBox(props) {
+  return <Container>{props.children}</Container>;
 }
 
 export default CenterSideBox;

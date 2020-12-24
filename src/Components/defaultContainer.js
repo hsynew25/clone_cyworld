@@ -3,7 +3,6 @@ import styled from "styled-components";
 import ContentsBox from "./contentsBox";
 import LeftSideBox from "./leftSideBox";
 import CenterSideBox from "./centerSideBox";
-import TabButton from "./tabButton";
 import RightSideBox from "./rightSideBox/rightSideBox";
 
 const Container = styled.div`
@@ -31,31 +30,11 @@ const Container = styled.div`
   position: relative;
 `;
 
-const TabWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 10px;
-  right: -74px;
-
-  button:not(:first-child) {
-    margin-top: 3px;
-  }
-`;
-
-function DefaultContainer() {
+function DefaultContainer(props) {
   return (
     <Container>
-      <ContentsBox>
-        <LeftSideBox></LeftSideBox>
-        <CenterSideBox></CenterSideBox>
-        <TabWrap>
-          <TabButton>홈</TabButton>
-          <TabButton>사진첩</TabButton>
-          <TabButton>방명록</TabButton>
-        </TabWrap>
-      </ContentsBox>
-      <RightSideBox></RightSideBox>
+      {props.children}
+      <RightSideBox />
     </Container>
   );
 }

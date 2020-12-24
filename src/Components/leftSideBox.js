@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Profile from "./profile/profile";
 
 const Container = styled.div`
   background-color: #fff;
@@ -12,12 +11,8 @@ const Container = styled.div`
   padding: 15px 30px;
 `;
 
-function LeftSideBox() {
-  return (
-    <Container>
-      <Profile />
-    </Container>
-  );
+function LeftSideBox(props) {
+  return <Container>{props.children}</Container>;
 }
 
 export default LeftSideBox;

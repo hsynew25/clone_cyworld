@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { withRouter } from "react-router-dom";
 import ContainerTitle from "./containerTitle";
 import TodayVisit from "./todayVisit";
+import TabButton from "./tabButton";
 
 const ContainerOuter = styled.div`
   width: 920px;
@@ -53,6 +55,18 @@ const MainBox = styled.div`
 
 const Header = styled.div``;
 
+const TabWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: -74px;
+
+  button:not(:first-child) {
+    margin-top: 3px;
+  }
+`;
+
 function ContentsBox(props) {
   return (
     <ContainerOuter>
@@ -62,10 +76,17 @@ function ContentsBox(props) {
           <TodayVisit />
           <ContainerTitle />
         </Header>
-        <MainBox>{props.children}</MainBox>
+        <MainBox>
+          {props.children}
+          <TabWrap>
+            <TabButton to="/">홈</TabButton>
+            <TabButton to="/gallery">사진첩</TabButton>
+            <TabButton to="/guestbook">방명록</TabButton>
+          </TabWrap>
+        </MainBox>
       </ContainerInner>
     </ContainerOuter>
   );
 }
 
-export default ContentsBox;
+export default withRouter(ContentsBox);

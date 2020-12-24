@@ -1,10 +1,10 @@
-import DefaultContainer from "./Components/defaultContainer";
+import Router from "./Components/Router";
 import GlobalStyle from "./globalStyle";
 
 function App() {
   return (
     <div className="App">
-      <DefaultContainer />
+      <Router />
       <GlobalStyle />
     </div>
   );
