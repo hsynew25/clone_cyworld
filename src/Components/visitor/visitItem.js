@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Comments from "../comment/comments";
+import ViewComments from "../comment/viewComments";
 
 const Container = styled.div``;
 
@@ -61,32 +63,6 @@ const Text = styled.div`
   font-size: 16px;
 `;
 
-const CommentWrap = styled.div`
-  background-color: #efefef;
-  display: flex;
-  padding: 15px;
-`;
-
-const Comment = styled.textarea`
-  resize: none;
-  height: 36px;
-  padding: 10px;
-  width: 406px;
-  border: 1px solid #bfbfbf;
-  color: #525252;
-`;
-
-const SaveComment = styled.button`
-  width: 42px;
-  height: 36px;
-  font-size: 14px;
-  margin-left: 10px;
-  border: 1px solid #bfbfbf;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #525252;
-`;
-
 function VisitItem(props) {
   return (
     <Container>
@@ -103,10 +79,8 @@ function VisitItem(props) {
         </ShowMiniMe>
         <Text>{props.txt}</Text>
       </InnerContainer>
-      <CommentWrap>
-        <Comment />
-        <SaveComment>확인</SaveComment>
-      </CommentWrap>
+      <ViewComments></ViewComments>
+      <Comments />
     </Container>
   );
 }
