@@ -33,19 +33,19 @@ function DropdownMinime(props) {
   return props.isShow ? (
     <SelectMinime>
       <ItemMinime>
-        <img src={m1} />
+        <img src={m1} alt={"미니미"} />
       </ItemMinime>
       <ItemMinime>
-        <img src={m2} />
+        <img src={m2} alt={"미니미"} />
       </ItemMinime>
       <ItemMinime>
-        <img src={m3} />
+        <img src={m3} alt={"미니미"} />
       </ItemMinime>
       <ItemMinime>
-        <img src={m4} />
+        <img src={m4} alt={"미니미"} />
       </ItemMinime>
       <ItemMinime>
-        <img src={m5} />
+        <img src={m5} alt={"미니미"} />
       </ItemMinime>
     </SelectMinime>
   ) : null;

@@ -49,6 +49,7 @@ function MusicPlayer() {
         </PlayWrap>
       </NowPlaying>
       <iframe
+        title="soundcloud"
         width="100%"
         height="100"
         scrolling="no"

@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import ContentsBox from "./contentsBox";
-import LeftSideBox from "./leftSideBox";
-import CenterSideBox from "./centerSideBox";
 import RightSideBox from "./rightSideBox/rightSideBox";
 
 const Container = styled.div`

@@ -99,7 +99,7 @@ function VisitItem(props) {
       </Header>
       <InnerContainer>
         <ShowMiniMe>
-          <img src={props.img} />
+          <img src={props.img} alt={"미니미"} />
         </ShowMiniMe>
         <Text>{props.txt}</Text>
       </InnerContainer>

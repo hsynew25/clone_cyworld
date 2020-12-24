@@ -74,7 +74,7 @@ function VisitorWriting() {
     <Container>
       <Wrap>
         <ShowMiniMe>
-          <img src={m6} />
+          <img src={m6} alt={"미니미"} />
           <SettingMinime onClick={() => setIsShow(!isShow)}>
             미니미
           </SettingMinime>

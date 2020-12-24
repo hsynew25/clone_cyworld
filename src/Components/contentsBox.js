@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { withRouter } from "react-router-dom";
 import ContainerTitle from "./containerTitle";
 import TodayVisit from "./todayVisit";
 import TabButton from "./tabButton";
@@ -68,9 +67,6 @@ const TabWrap = styled.div`
 `;
 
 function ContentsBox(props) {
-  const {
-    location: { pathname },
-  } = props;
   return (
     <ContainerOuter>
       <InnerBorder />
@@ -92,4 +88,4 @@ function ContentsBox(props) {
   );
 }
 
-export default withRouter(ContentsBox);
+export default ContentsBox;
