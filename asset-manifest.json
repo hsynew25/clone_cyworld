@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/clone_cyworld/static/css/main.b4116d09.chunk.css",
-    "main.js": "/clone_cyworld/static/js/main.5da4de1c.chunk.js",
-    "main.js.map": "/clone_cyworld/static/js/main.5da4de1c.chunk.js.map",
+    "main.js": "/clone_cyworld/static/js/main.8345fecd.chunk.js",
+    "main.js.map": "/clone_cyworld/static/js/main.8345fecd.chunk.js.map",
     "runtime-main.js": "/clone_cyworld/static/js/runtime-main.fbcad698.js",
     "runtime-main.js.map": "/clone_cyworld/static/js/runtime-main.fbcad698.js.map",
-    "static/js/2.d4dabd9d.chunk.js": "/clone_cyworld/static/js/2.d4dabd9d.chunk.js",
-    "static/js/2.d4dabd9d.chunk.js.map": "/clone_cyworld/static/js/2.d4dabd9d.chunk.js.map",
+    "static/js/2.288a7a7c.chunk.js": "/clone_cyworld/static/js/2.288a7a7c.chunk.js",
+    "static/js/2.288a7a7c.chunk.js.map": "/clone_cyworld/static/js/2.288a7a7c.chunk.js.map",
     "index.html": "/clone_cyworld/index.html",
     "static/css/main.b4116d09.chunk.css.map": "/clone_cyworld/static/css/main.b4116d09.chunk.css.map",
-    "static/js/2.d4dabd9d.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.d4dabd9d.chunk.js.LICENSE.txt",
+    "static/js/2.288a7a7c.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.288a7a7c.chunk.js.LICENSE.txt",
+    "static/media/1.e5e0f870.png": "/clone_cyworld/static/media/1.e5e0f870.png",
+    "static/media/2.e20c349b.png": "/clone_cyworld/static/media/2.e20c349b.png",
+    "static/media/3.70e013d5.png": "/clone_cyworld/static/media/3.70e013d5.png",
+    "static/media/4.c65351d3.png": "/clone_cyworld/static/media/4.c65351d3.png",
+    "static/media/5.1ecfdf68.png": "/clone_cyworld/static/media/5.1ecfdf68.png",
+    "static/media/6.bc7f9f10.png": "/clone_cyworld/static/media/6.bc7f9f10.png",
     "static/media/EditAndHis.7c3c12b7.png": "/clone_cyworld/static/media/EditAndHis.7c3c12b7.png",
     "static/media/miniroom3.c32e169e.jpeg": "/clone_cyworld/static/media/miniroom3.c32e169e.jpeg",
     "static/media/todayIs.c56f9316.png": "/clone_cyworld/static/media/todayIs.c56f9316.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fbcad698.js",
-    "static/js/2.d4dabd9d.chunk.js",
+    "static/js/2.288a7a7c.chunk.js",
     "static/css/main.b4116d09.chunk.css",
-    "static/js/main.5da4de1c.chunk.js"
+    "static/js/main.8345fecd.chunk.js"
   ]
 }
