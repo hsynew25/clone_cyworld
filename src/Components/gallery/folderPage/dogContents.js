@@ -6,7 +6,9 @@ import PerPicture from "../perPicture";
 
 const List = styled.ul``;
 
-const Item = styled.li``;
+const Item = styled.li`
+  margin-bottom: 40px;
+`;
 
 function DogContents() {
   const { loading, images } = FetchDogImg();
