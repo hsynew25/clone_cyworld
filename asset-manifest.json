@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clone_cyworld/static/css/main.b4116d09.chunk.css",
-    "main.js": "/clone_cyworld/static/js/main.02594d8b.chunk.js",
-    "main.js.map": "/clone_cyworld/static/js/main.02594d8b.chunk.js.map",
+    "main.js": "/clone_cyworld/static/js/main.d5e1cfe4.chunk.js",
+    "main.js.map": "/clone_cyworld/static/js/main.d5e1cfe4.chunk.js.map",
     "runtime-main.js": "/clone_cyworld/static/js/runtime-main.fbcad698.js",
     "runtime-main.js.map": "/clone_cyworld/static/js/runtime-main.fbcad698.js.map",
     "static/js/2.ec9a1097.chunk.js": "/clone_cyworld/static/js/2.ec9a1097.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.fbcad698.js",
     "static/js/2.ec9a1097.chunk.js",
     "static/css/main.b4116d09.chunk.css",
-    "static/js/main.02594d8b.chunk.js"
+    "static/js/main.d5e1cfe4.chunk.js"
   ]
 }
