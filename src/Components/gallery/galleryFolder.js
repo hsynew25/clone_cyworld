@@ -26,26 +26,31 @@ const Icon = styled.span`
 const Folder = styled.li`
   font-size: 18px;
   font-weight: ${(props) => (props.current ? "bold" : "normal")};
+  cursor: pointer;
 
   &:not(:first-child) {
     margin-top: 5px;
   }
 `;
 
-function GelleryFolder() {
+function GelleryFolder(props) {
+  const tabInfo = Object.values(props.tab);
   return (
     <Container>
       <Header>PHOTO ALBUM</Header>
       <FolderList>
-        <Folder current={true}>
-          <Icon>📷</Icon>전체보기
-        </Folder>
-        <Folder current={false}>
-          <Icon>📒</Icon>강아지
-        </Folder>
-        <Folder current={false}>
-          <Icon>📒</Icon>고양이
-        </Folder>
+        {tabInfo &&
+          tabInfo.length > 0 &&
+          tabInfo.map((t, idx) => (
+            <Folder
+              key={idx}
+              onClick={() => props.setActiveTab(idx)}
+              current={props.activeTab === idx}
+            >
+              <Icon>{t.icon}</Icon>
+              {t.title}
+            </Folder>
+          ))}
       </FolderList>
     </Container>
   );

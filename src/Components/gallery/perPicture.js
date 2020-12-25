@@ -27,14 +27,14 @@ const Image = styled.img`
   width: 100%;
 `;
 
-function PerPicture() {
+function PerPicture(props) {
+  const breedsPos = props.img.indexOf("breeds/");
+  const breed = props.img.slice(breedsPos).split("/")[1];
   return (
     <Container>
-      <Title>breed here</Title>
+      <Title>{props.isCat ? "고양이" : breed}</Title>
       <Wrap>
-        <Image
-          src={"https://images.dog.ceo/breeds/setter-irish/n02100877_6728.jpg"}
-        />
+        <Image src={props.img} />
       </Wrap>
       <ViewComments>
         <CommentItem />
