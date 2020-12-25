@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/clone_cyworld/static/css/main.b4116d09.chunk.css",
-    "main.js": "/clone_cyworld/static/js/main.8345fecd.chunk.js",
-    "main.js.map": "/clone_cyworld/static/js/main.8345fecd.chunk.js.map",
+    "main.js": "/clone_cyworld/static/js/main.02594d8b.chunk.js",
+    "main.js.map": "/clone_cyworld/static/js/main.02594d8b.chunk.js.map",
     "runtime-main.js": "/clone_cyworld/static/js/runtime-main.fbcad698.js",
     "runtime-main.js.map": "/clone_cyworld/static/js/runtime-main.fbcad698.js.map",
-    "static/js/2.288a7a7c.chunk.js": "/clone_cyworld/static/js/2.288a7a7c.chunk.js",
-    "static/js/2.288a7a7c.chunk.js.map": "/clone_cyworld/static/js/2.288a7a7c.chunk.js.map",
+    "static/js/2.ec9a1097.chunk.js": "/clone_cyworld/static/js/2.ec9a1097.chunk.js",
+    "static/js/2.ec9a1097.chunk.js.map": "/clone_cyworld/static/js/2.ec9a1097.chunk.js.map",
     "index.html": "/clone_cyworld/index.html",
     "static/css/main.b4116d09.chunk.css.map": "/clone_cyworld/static/css/main.b4116d09.chunk.css.map",
-    "static/js/2.288a7a7c.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.288a7a7c.chunk.js.LICENSE.txt",
+    "static/js/2.ec9a1097.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.ec9a1097.chunk.js.LICENSE.txt",
     "static/media/1.e5e0f870.png": "/clone_cyworld/static/media/1.e5e0f870.png",
     "static/media/2.e20c349b.png": "/clone_cyworld/static/media/2.e20c349b.png",
     "static/media/3.70e013d5.png": "/clone_cyworld/static/media/3.70e013d5.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fbcad698.js",
-    "static/js/2.288a7a7c.chunk.js",
+    "static/js/2.ec9a1097.chunk.js",
     "static/css/main.b4116d09.chunk.css",
-    "static/js/main.8345fecd.chunk.js"
+    "static/js/main.02594d8b.chunk.js"
   ]
 }
