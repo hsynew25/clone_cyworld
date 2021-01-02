@@ -1,10 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import m1 from "../../img/minime/1.png";
-import m2 from "../../img/minime/2.png";
-import m3 from "../../img/minime/3.png";
-import m4 from "../../img/minime/4.png";
-import m5 from "../../img/minime/5.png";
 
 const SelectMinime = styled.div`
   width: 280px;
@@ -29,24 +24,18 @@ const ItemMinime = styled.button`
   }
 `;
 
-function DropdownMinime(props) {
-  return props.isShow ? (
+function DropdownMinime({ isShow, setIsShow, setMinime, mArr }) {
+  const handleClick = (e) => {
+    setMinime(e.target.id);
+    setIsShow(false);
+  };
+  return isShow ? (
     <SelectMinime>
-      <ItemMinime>
-        <img src={m1} alt={"미니미"} />
-      </ItemMinime>
-      <ItemMinime>
-        <img src={m2} alt={"미니미"} />
-      </ItemMinime>
-      <ItemMinime>
-        <img src={m3} alt={"미니미"} />
-      </ItemMinime>
-      <ItemMinime>
-        <img src={m4} alt={"미니미"} />
-      </ItemMinime>
-      <ItemMinime>
-        <img src={m5} alt={"미니미"} />
-      </ItemMinime>
+      {mArr.map((item, idx) => (
+        <ItemMinime key={idx}>
+          <img src={item} alt={"미니미"} id={idx} onClick={handleClick} />
+        </ItemMinime>
+      ))}
     </SelectMinime>
   ) : null;
 }
