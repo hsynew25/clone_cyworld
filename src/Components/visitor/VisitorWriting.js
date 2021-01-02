@@ -15,6 +15,22 @@ const Container = styled.div`
   border-bottom: 1px solid #bfbfbf;
 `;
 
+const Header = styled.div`
+  margin-bottom: 10px;
+`;
+
+const Input = styled.input`
+  border: 1px solid #bfbfbf;
+  color: #525252;
+  padding: 5px;
+  width: 130px;
+
+  &:not(:first-child) {
+    margin-left: 5px;
+    width: 150px;
+  }
+`;
+
 const Wrap = styled.div`
   display: flex;
 `;
@@ -79,6 +95,10 @@ function VisitorWriting() {
   const mArr = [m1, m2, m3, m4, m5, m6];
   return (
     <Container>
+      <Header>
+        <Input type="text" placeholder="이름" />
+        <Input type="password" placeholder="비밀번호(삭제 시 필요)" />
+      </Header>
       <Wrap>
         <ShowMiniMe>
           <img src={mArr[minime]} alt={"미니미"} />
