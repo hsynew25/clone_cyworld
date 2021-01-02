@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/clone_cyworld/static/css/main.b4116d09.chunk.css",
-    "main.js": "/clone_cyworld/static/js/main.d5e1cfe4.chunk.js",
-    "main.js.map": "/clone_cyworld/static/js/main.d5e1cfe4.chunk.js.map",
+    "main.js": "/clone_cyworld/static/js/main.ad0a887b.chunk.js",
+    "main.js.map": "/clone_cyworld/static/js/main.ad0a887b.chunk.js.map",
     "runtime-main.js": "/clone_cyworld/static/js/runtime-main.fbcad698.js",
     "runtime-main.js.map": "/clone_cyworld/static/js/runtime-main.fbcad698.js.map",
-    "static/js/2.ec9a1097.chunk.js": "/clone_cyworld/static/js/2.ec9a1097.chunk.js",
-    "static/js/2.ec9a1097.chunk.js.map": "/clone_cyworld/static/js/2.ec9a1097.chunk.js.map",
+    "static/js/2.bc5488f7.chunk.js": "/clone_cyworld/static/js/2.bc5488f7.chunk.js",
+    "static/js/2.bc5488f7.chunk.js.map": "/clone_cyworld/static/js/2.bc5488f7.chunk.js.map",
     "index.html": "/clone_cyworld/index.html",
     "static/css/main.b4116d09.chunk.css.map": "/clone_cyworld/static/css/main.b4116d09.chunk.css.map",
-    "static/js/2.ec9a1097.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.ec9a1097.chunk.js.LICENSE.txt",
+    "static/js/2.bc5488f7.chunk.js.LICENSE.txt": "/clone_cyworld/static/js/2.bc5488f7.chunk.js.LICENSE.txt",
     "static/media/1.e5e0f870.png": "/clone_cyworld/static/media/1.e5e0f870.png",
     "static/media/2.e20c349b.png": "/clone_cyworld/static/media/2.e20c349b.png",
     "static/media/3.70e013d5.png": "/clone_cyworld/static/media/3.70e013d5.png",
@@ -17,13 +17,19 @@
     "static/media/5.1ecfdf68.png": "/clone_cyworld/static/media/5.1ecfdf68.png",
     "static/media/6.bc7f9f10.png": "/clone_cyworld/static/media/6.bc7f9f10.png",
     "static/media/EditAndHis.7c3c12b7.png": "/clone_cyworld/static/media/EditAndHis.7c3c12b7.png",
+    "static/media/miniroom1.7a9d052f.jpeg": "/clone_cyworld/static/media/miniroom1.7a9d052f.jpeg",
+    "static/media/miniroom2.8edef786.jpeg": "/clone_cyworld/static/media/miniroom2.8edef786.jpeg",
     "static/media/miniroom3.c32e169e.jpeg": "/clone_cyworld/static/media/miniroom3.c32e169e.jpeg",
+    "static/media/miniroom4.f8195c9d.jpeg": "/clone_cyworld/static/media/miniroom4.f8195c9d.jpeg",
+    "static/media/miniroom5.1becee23.jpeg": "/clone_cyworld/static/media/miniroom5.1becee23.jpeg",
+    "static/media/miniroom6.1aa0a7f4.jpeg": "/clone_cyworld/static/media/miniroom6.1aa0a7f4.jpeg",
+    "static/media/miniroom7.0f4879f2.jpeg": "/clone_cyworld/static/media/miniroom7.0f4879f2.jpeg",
     "static/media/todayIs.c56f9316.png": "/clone_cyworld/static/media/todayIs.c56f9316.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fbcad698.js",
-    "static/js/2.ec9a1097.chunk.js",
+    "static/js/2.bc5488f7.chunk.js",
     "static/css/main.b4116d09.chunk.css",
-    "static/js/main.d5e1cfe4.chunk.js"
+    "static/js/main.ad0a887b.chunk.js"
   ]
 }
